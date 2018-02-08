@@ -1,0 +1,29 @@
+# Site settings
+title: Upcycles
+description: "Boston area cargo framebuilders."
+baseurl: ""
+url: "http://upcycles.org"
+theme: jekyll-theme-leap-day
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Upcycles"
