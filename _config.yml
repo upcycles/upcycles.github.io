@@ -8,9 +8,8 @@ theme: jekyll-theme-leap-day
 paginate: 5
 paginate_path: "/blog/page:num/"
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+plugins:
+  - jekyll-feed
 
 # front matter defaults
 defaults:
@@ -27,3 +26,7 @@ defaults:
     values:
       layout: "post"
       author: "Upcycles"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
