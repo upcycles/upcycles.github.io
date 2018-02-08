@@ -217,18 +217,7 @@ header {
     }
   }
 
-  .fork {
-    position:fixed;
-    left:50%;
-    margin-left:-325px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height:14px;
-    font-size:14px;
-    background-color: #FFE788;
-  }
-
-  .downloads {
+  nav {
     float: right;
     margin:0 45px 0 0;
 
@@ -376,12 +365,9 @@ footer {
   #banner {
     width: 100%;
 
-    .downloads {
+    nav {
         margin-right: 60px;
       }
-
-    .fork {
-    }
 
     #logo {
       margin-right: 15px;
@@ -429,15 +415,6 @@ footer {
 
   #banner {
     top: 80px;
-
-    .fork {
-      float: left;
-      display: inline-block;
-      margin-left: 0px;
-    position:fixed;
-    left:20px;
-
-      }
   }
 
   section {
