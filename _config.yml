@@ -10,8 +10,10 @@ paginate_path: "/blog/page:num/"
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
-# front matter defaults
+# Front matter defaults.  Posts use the "post" layout by default, whereas
+# everything else uses the "default" layout by default.
 defaults:
   -
     scope:
