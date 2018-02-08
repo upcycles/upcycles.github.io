@@ -369,7 +369,7 @@ footer {
 
     .sitenav {
         margin-right: 60px;
-      }
+    }
 
     #logo {
       margin-right: 15px;
@@ -453,6 +453,9 @@ footer {
   }
 
   #banner {
+    .sitenav {
+        margin-right: 15px;
+    }
     #logo {display: none;}
   }
   header ul {
