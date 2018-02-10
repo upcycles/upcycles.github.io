@@ -1,8 +1,11 @@
-media_folder: "media/uploads"
 
 backend:
   name: github
   repo: upcycles/upcycles.github.io
+  branch: master
+  site_domain: upcycles.netlify.com
+
+media_folder: "media/uploads"
 
 collections:
   - name: "blog"
