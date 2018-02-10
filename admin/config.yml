@@ -3,7 +3,7 @@ backend:
   name: github
   repo: upcycles/upcycles.github.io
   branch: master
-  site_domain: upcycles.netlify.com
+  site_domain: upcycles.github.io
 
 media_folder: "media/uploads"
 
